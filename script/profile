@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-function talign_profile {
+function _talign_profile {
   local shome="${_talign_home:-"$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"}"
   PATH="$shome/bin:$PATH"
 }
 
-talign_profile
+_talign_profile
