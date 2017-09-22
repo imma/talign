@@ -1,1 +1,1 @@
-Visit http://defn.sh/talign/ or open `docs/index.html`
+content/talign.md
